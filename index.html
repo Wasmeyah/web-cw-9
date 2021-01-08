@@ -24,7 +24,7 @@
     <h4 class="menu-item">
       <a href="./index.html">Cookies</a>
       <br></br>
-      <a href="">Add a Cookie</a>
+      <a href="./add.html">Add a Cookie</a>
       <br></br>
       <a href="">See my Cart</a>
     </h4>
@@ -41,7 +41,7 @@
         <h5 class="card-title">
           <span>Creme Brulee Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button onclick='add(0)' type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@
         <h5 class="card-title">
           <span>White Choco Orea Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button onclick='add(1)' type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
@@ -67,10 +67,16 @@
         <h5 class="card-title">
           <span>Mixed Dates Cookie</span>
         </h5>
-        <button type="button" class="btn btn-primary">Add to Cart</button>
+        <button onclick='add(2)' type="button" class="btn btn-primary">Add to Cart</button>
       </div>
     </div>
   </div>
+</div>
+<div>
+  <h5>My Cart</h5>
+  <ul id="list">
+    <li id="total"></li>
+  </ul>
 </div>
 </div>
 <!-- بونص 👑 -->
@@ -90,6 +96,7 @@
   }
   */
 </script>
+<script src="a.js"></script>
 </body>
 
 </html>
